@@ -1,0 +1,29 @@
+haritzblanco@ubuntu:~/Desktop/5.Praktika$ apt-cache search xmpp | grep ^lib
+libidn11 - GNU Libidn library, implementation of IETF IDN specifications
+libidn11-dev - Development files for GNU Libidn, an IDN library
+libanyevent-xmpp-perl - implementation of the XMPP Protocol
+libgloox-dbg - C++ jabber/xmpp library (debug symbols)
+libgloox-dev - C++ jabber/xmpp library (devel)
+libgloox-doc - C++ jabber/xmpp library (API documentation)
+libgloox17 - C++ jabber/xmpp library
+libidn11-java - Java port of the GNU Libidn library, an IDN implementation
+libjreen-qt5-1 - powerful Jabber/XMPP library implemented in Qt5/C++
+libjreen-qt5-dbg - powerful Jabber/XMPP library (Qt5 build) - debugging symbols
+libjreen-qt5-dev - powerful Jabber/XMPP library (Qt5 build) - development files
+libjs-jsxc - JavaScript XMPP Client
+libjs-strophe - Library for writing XMPP clients
+libnet-xmpp-perl - XMPP Perl library
+libnice-dev - ICE library (development files)
+libnice-doc - ICE library (documentation)
+libnice10 - ICE library (shared library)
+libphp-jabber - Object-oriented PHP interface for the Jabber/XMPP protocol
+libpurple0 - multi-protocol instant messaging library
+libqxmpp-dev - Development files for the QXmpp library
+libqxmpp-doc - Documentation for the QXmpp library
+libqxmpp1 - QXmpp library for XMPP client and server applications
+libstrophe-dev - Library for writing XMPP clients - development files
+libstrophe0 - Library for writing XMPP clients - shared library
+libtaningia-dev - Development files for lib taningia
+libtaningia0 - Taningia is a generic communication library based on XMPP
+libxml-stream-perl - module for manipulating streaming XML data
+

@@ -1,0 +1,12 @@
+ejabberd     758  0.0  0.3 3080612 60200 ?       Sl   14:04   0:08 /usr/lib/erlang/erts-10.6.4/bin/beam.smp -K true -P 250000 -- -root /usr/lib/erlang -progname erl -- -home /var/lib/ejabberd -- -sname ejabberd@localhost -smp auto -mnesia dir "/var/lib/ejabberd" -ejabberd log_rotate_count 0 log_rotate_date "" -s ejabberd -noshell -noinput --
+ejabberd     785  0.0  0.0   2492   584 ?        Ss   14:04   0:00 erl_child_setup 65536
+ejabberd     962  0.0  0.0  16336  2024 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     963  0.0  0.0  16336  1960 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     964  0.0  0.0  16336  1960 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     965  0.0  0.0  16336  1940 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     966  0.0  0.0  16336  1964 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     967  0.0  0.0  16336  1964 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     968  0.0  0.0  16336  2032 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd     969  0.0  0.0  16336  1992 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/p1_eimp-1.0.13/priv/bin/eimp
+ejabberd    1125  0.0  0.0   2356   516 ?        Ss   14:04   0:00 /usr/lib/erlang/lib/os_mon-2.5.1/priv/bin/memsup
+eneko      11563  0.0  0.0  11568   724 pts/0    S+   17:01   0:00 grep --color=auto ejabberd

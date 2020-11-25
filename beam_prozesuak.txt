@@ -1,0 +1,10 @@
+haritzblanco@ubuntu:~/Desktop/5.Praktika$ sudo ss -tulpn | grep -E "beam|epmd"
+[sudo] password for haritzblanco: 
+tcp     LISTEN   0        128              0.0.0.0:39049          0.0.0.0:*      users:(("beam.smp",pid=972,fd=19))                                             
+tcp     LISTEN   0        4096                   *:4369                 *:*      users:(("epmd",pid=911,fd=3),("systemd",pid=1,fd=58))                          
+tcp     LISTEN   0        5                      *:5269                 *:*      users:(("beam.smp",pid=972,fd=52))                                             
+tcp     LISTEN   0        1000                   *:1883                 *:*      users:(("beam.smp",pid=972,fd=55))                                             
+tcp     LISTEN   0        5                      *:5280                 *:*      users:(("beam.smp",pid=972,fd=54))                                             
+tcp     LISTEN   0        5                      *:5443                 *:*      users:(("beam.smp",pid=972,fd=53))                                             
+tcp     LISTEN   0        5                      *:5222                 *:*      users:(("beam.smp",pid=972,fd=50))                                             
+tcp     LISTEN   0        5                      *:5223                 *:*      users:(("beam.smp",pid=972,fd=51))  

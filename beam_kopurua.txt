@@ -1,0 +1,3 @@
+haritzblanco@ubuntu:/usr/lib/erlang$ dpkg -L ejabberd | grep beam | wc -l
+263
+

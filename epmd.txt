@@ -1,0 +1,4 @@
+haritzblanco@ubuntu:~/Desktop/5.Praktika$ ps aux | grep epmd
+epmd         911  0.0  0.0   6344  1436 ?        Ss   19:41   0:00 /usr/bin/epmd -systemd
+haritzb+    4557  0.0  0.0  17664   732 pts/0    R+   20:05   0:00 grep --color=auto epmd
+
